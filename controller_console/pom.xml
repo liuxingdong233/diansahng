@@ -8,4 +8,16 @@
   <artifactId>controller_console</artifactId>
   <packaging>war</packaging>
   <name>后台的web层</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.itheima.parent</groupId>
+  		<artifactId>interface</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.itheima.parent</groupId>
+  		<artifactId>dao</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
